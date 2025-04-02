@@ -1,0 +1,67 @@
+# AlcoMeterBot Configuration
+# Created by Nestor Churin (t.me/nestor_churin)
+
+bot:
+  api_id: "YOUR_API_ID"
+  api_hash: "YOUR_API_HASH"
+  bot_token: "YOUR_BOT_TOKEN"
+  admin_ids: [YOUR_ADMIN_ID] # Список ID адміністраторів
+
+database:
+  path: "data/alcometerbot.db"
+
+alcohol_types:
+  beer:
+    name: "Пиво"
+    default_volume: 500  # мл
+    strength: 4.5  # %
+    subtypes:
+      - "Львівське"
+      - "Оболонь"
+      - "Чернігівське"
+      - "Рогань"
+      - "ППБ"
+      
+  wine:
+    name: "Вино"
+    default_volume: 150  # мл
+    strength: 12.0  # %
+    subtypes:
+      - "Кримське"
+      - "Шабо"
+      - "Колоніст"
+      - "Массандра"
+      - "Новітній Світ"
+      
+  vodka:
+    name: "Горілка"
+    default_volume: 50  # мл
+    strength: 40.0  # %
+    subtypes:
+      - "Немирів"
+      - "Хортиця"
+      - "Козак"
+      - "Медова"
+      - "Перша Гільдія"
+      
+  whiskey:
+    name: "Віскі"
+    default_volume: 50  # мл
+    strength: 40.0  # %
+    subtypes:
+      - "Джек Деніелс"
+      - "Джим Бім"
+      - "Джонні Вокер"
+      - "Баллантайнс"
+      - "Чівас Рігал"
+      
+  liquor:
+    name: "Лікер"
+    default_volume: 50  # мл
+    strength: 35.0  # %
+    subtypes:
+      - "Єгермейстер"
+      - "Бейліс"
+      - "Амаретто"
+      - "Куантро"
+      - "Марі Брізар"
